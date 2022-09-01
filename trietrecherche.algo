@@ -1,0 +1,21 @@
+ALGORITHM algorithm_tri
+tableau tab [1..100]: INTEGER
+VAR
+i,j,elmt:INTEGER
+BEGIN
+
+    FOR i FROM 1 TO i.length-1 STEP 1  DO
+     t[i]=elmt
+     elmt:=t[i]
+    WHILE (j>0 && t[j-1]>elmt) DO
+         t[j]=t[j-1]
+         j:=j-1
+         t[j]=elmt
+         elmt:=t[j]
+    END_WHILE
+    END_FOR
+        
+            
+        END_IF
+    END_FOR
+END
